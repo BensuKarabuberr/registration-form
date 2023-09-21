@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS bağlantısı-->
+    <link rel="stylesheet" href="registration.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--Google font bağlantısı-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fontawsome CDN bağlantı-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Registration Form Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>Registraiton</header>
+
+      <form action="#">
+        <!--#FIRST FORM#-->
+        <div class="form first">
+          <!--PERSONAL DETAILS PART-->
+          <div class="details personal">
+            <span class="title">Personal Details</span>
+            <div class="fields">
+              <!--input fields 1-->
+              <div class="input-field">
+                <label>Full name</label>
+                <input type="text" placeholder="Enter your name" required />
+              </div>
+
+              <div class="input-field">
+                <label>Date of Birth</label>
+                <input
+                  type="date"
+                  placeholder="Enter your birth date"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Email</label>
+                <input
+                  type="text"
+                  placeholder="Enter your mail address"
+                  required
+                />
+              </div>
+              <!--input fields 2--->
+              <div class="input-field">
+                <label>Mobile Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Gender</label>
+                <input type="text" placeholder="Enter your gender" required />
+              </div>
+
+              <div class="input-field">
+                <label>Occupation</label>
+                <input
+                  type="text"
+                  placeholder="Enter your occupation"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <!--IDENTITY DETAILS PART-->
+          <div class="details ID">
+            <span class="title">Identity Details</span>
+            <div class="fields">
+              <!--input fields 1-->
+              <div class="input-field">
+                <label>ID Type</label>
+                <input
+                  type="number"
+                  placeholder="Enter your ID type"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>ID Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter your ID number"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Issued Authority</label>
+                <input
+                  type="text"
+                  placeholder="Enter your issued authority"
+                  required
+                />
+              </div>
+              <!--input fields 2--->
+              <div class="input-field">
+                <label>Issued State</label>
+                <input
+                  type="number"
+                  placeholder="Enter your issued state"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Issued Date</label>
+                <input
+                  type="date"
+                  placeholder="Enter your issued date"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Expiry Date</label>
+                <input
+                  type="date"
+                  placeholder="Enter your exipry date"
+                  required
+                />
+              </div>
+            </div>
+            <!--BUTTON PART-->
+            <button class="nextBtn">
+              <span class="btnText">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!--#SECOND FORM#-->
+        <div class="form second">
+          <!--ADDRESS DETAILS PART-->
+          <div class="details address">
+            <span class="title">Address Details</span>
+            <div class="fields">
+              <!--input fields 1-->
+              <div class="input-field">
+                <label>Address Type</label>
+                <input type="text" placeholder="Enter address type" required />
+              </div>
+
+              <div class="input-field">
+                <label>Nationality</label>
+                <input
+                  type="text"
+                  placeholder="Enter your nationality"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>State</label>
+                <input
+                  type="text"
+                  placeholder="Enter your mail address"
+                  required
+                />
+              </div>
+              <!--input fields 2--->
+              <div class="input-field">
+                <label>District</label>
+                <input
+                  type="number"
+                  placeholder="Enter your phone district"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Block Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter your block number"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Ward Number</label>
+                <input
+                  type="number"
+                  placeholder="Enter your ward number"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <!--FAMILY DETAILS PART-->
+          <div class="details family">
+            <span class="title">Family Details</span>
+            <div class="fields">
+              <!--input fields 1-->
+              <div class="input-field">
+                <label>Father Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your father name"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Mother Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your mother name"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Grandfather Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your grandfather name"
+                  required
+                />
+              </div>
+              <!--input fields 2--->
+              <div class="input-field">
+                <label>Spause Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your spouse name"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Father in Law Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your father in law name"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Mother in Law Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your mother in law name"
+                  required
+                />
+              </div>
+            </div>
+            <!--BUTTON PART-->
+            <div class="buttons">
+              <button class="backBtn">
+                <span class="btnText">Back</span>
+              </button>
+
+              <button class="nextBtn">
+                <span class="btnText">Submit</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--JS bağlantısı-->
+    <script src="registration.js"></script>
+  </body>
+</html>
